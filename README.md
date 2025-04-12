@@ -110,7 +110,9 @@ ollama-chrome-assistant/
 ├── tsconfig.json
 ├── .gitignore
 ├── src/
-│   ├── popup.tsx                 # Main popup UI
+│   ├── popup/
+│   │   ├── index.tsx             # Main popup UI
+│   │   └── style.css             # Popup UI's designs
 │   ├── background.ts             # Background script for API calls
 │   ├── components/
 │   │   ├── InputForm.tsx         # Input form component
